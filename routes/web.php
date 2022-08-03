@@ -47,7 +47,7 @@ Route::any('checkout/plus/{id}','App\Http\Controllers\Frontend\CartController@in
 Route::get('checkout','App\Http\Controllers\Frontend\CheckoutController@checkout')->name('checkout');
 // Route::any('checkout/{postcode}','App\Http\Controllers\Frontend\CheckoutController@getPriceByPostCodeAndWeight')->name('checkout.shipping.weight.amount');
 
-// user controller for Register
+
 
 Route::get('register', 'App\Http\Controllers\Frontend\UserController@registerView')->name('register.view');
 Route::post('post/register','App\Http\Controllers\Backend\RegisterController@register')->name('user.register');
