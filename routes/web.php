@@ -58,7 +58,7 @@ Route::post('post/register','App\Http\Controllers\Backend\RegisterController@reg
      Route::any('user-orders', 'App\Http\Controllers\Frontend\UserController@userOrders')->name('user.orders');
  });
 
-// login
+
 Route::get('login', 'App\Http\Controllers\Frontend\UserController@loginView')->name('login.view');
 Route::post('login','App\Http\Controllers\Backend\LoginController@login')->name('user.login');
 Route::get('logout', 'App\Http\Controllers\Frontend\UserController@logout')->name('user.logout');
