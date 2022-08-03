@@ -1,0 +1,1 @@
+<center><h1>Products</h1><p>Counts: {{$data}}</p></center>
